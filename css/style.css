@@ -1,5 +1,4 @@
-/* Website template by freewebsitetemplates.com */
-/*------------------------- Fonts ---------------------------*/
+
 @font-face {
 	font-family: 'quattrocento_sansregular';
 	src: url('../fonts/quattrocentosans-regular-webfont.eot');
@@ -31,117 +30,70 @@ a {
 	outline:none;
 }
 a img {
-	border:0;
+	border-radius: 20px;
 	display:block;
+}
+a img:hover{
+	opacity: 0.6;
 }
 p a {
 	color:#838383;
 	text-decoration:underline;
 }
-p a:hover, a:hover {
-	color:#404040!important;
-}
+
 /*------------------------- Header -------------------------*/
-.header {
-	background:url(../images/bg-header.jpg) repeat-x;
-	height:125px;
+.header{
+
+	height: 100px;
+
 }
-.header div {
-	margin:0 auto;
-	overflow:hidden;
-	padding:0 10px;
-	position:relative;
-	width:940px;
+.header #logo{
+	margin: 10px 0 0 15px;
+	float: left;
+	width: 20%;
 }
-.header div a#logo {
-	float:left;
-	left:8px;
-	position:absolute;
-	top:44px;
+.header ul li{
+	display: inline-block;
+	list-style-type: none;
+	height: 99px;
+	width: 130px;
+	text-align: center;
+	border-left: 1px solid #6dcff6;
+
 }
-.header div div {
-	float:right;
-	margin:0;
-	padding:0;
-	position:static;
-	width:475px;
+.header ul li a{
+	float: left;
+	width: 80%;
+	padding-top: 20%;
+	margin: 0 0 0 5px;
 }
-.header div div > a {
-	display:block;
-	float:right;
-	margin:0 19px 0 0;
-	width:201px;
-	height:58px;
-	background:url(../images/interface.png) no-repeat 0 -67px;
-	text-indent:-99999px;
+
+div.header ul li:hover a {
+      color: white;
+      text-shadow: 0 1px 2px  black; 
 }
-.header div div > a:hover {
-	background:url(../images/interface.png) no-repeat 0 -126px;
+.header ul li:hover{
+	border: 2px solid #6dcff6;
+	border-bottom: 10px solid #6dcff6;
+	background-color: aqua;
 }
-.header div div ul {
-	clear:both;
-	list-style:none;
-	margin:0;
-	overflow:hidden;
-	padding:21px 0 0;
-}
-.header div div ul li:first-child {
-	margin:0;
-}
-.header div div ul li {
-	float:left;
-	margin:0 0 0 30px;
-}
-.header div div ul li a:first-child {
-	color:#fff;
-	display:inline;
-	float:none;
-	font-family:rokkittbold;
-	font-size:16px;
-	letter-spacing:.025em;
-	line-height:24px;
-	margin:0;
-	text-decoration:none;
-	text-shadow:2px 3px 2px #000;
-}
-.header div div ul li a:hover, .header div div ul li.selected a {
-	color:#fff600!important;
-}
+
+
 /*------------------------- Body ---------------------------*/
-.body .home .featured {
-	background:url(../images/bg-featured.png) repeat-x;
-	height:396px;
+/* bando */
+#bando:hover{
+	opacity: 0.6;
 }
+
+
 .body .home .featured div {
-	background:url(../images/bg-featured.jpg) no-repeat;
-	height:396px;
-	margin:0 auto;
-	width:960px;
+
+	height: 350px;
+	margin: 20px 0 20px 0;
+	width:100%;
+	border-radius: 10px;
 }
-.body .home .featured div p {
-	color:#fff;
-	font-family:rokkittregular;
-	font-size:24px;
-	line-height:30px;
-	margin:0 0 0 78px;
-	padding:32px 0 0;
-	text-shadow:0 1px 1px #000;
-}
-.body .home .featured div h2 {
-	color:#FFF;
-	font-family:rokkittbold;
-	font-size:36px;
-	font-weight:400;
-	line-height:24px;
-	margin:0 0 0 78px;
-	padding:28px 0 0;
-	text-shadow:0 1px 1px #000;
-}
-.body .home .featured div h2 span {
-	color:#fff600;
-	font-size:48px;
-	line-height:30px;
-}
+
 .body .home .section {
 	margin:0 auto;
 	overflow:hidden;
@@ -250,6 +202,9 @@ p a:hover, a:hover {
 	text-decoration:underline;
 	color:#cc6a00!important;
 }
+
+/* what up */
+
 .body .about {
 	margin:0 auto;
 	padding:41px 10px 358px;
@@ -282,16 +237,20 @@ p a:hover, a:hover {
 	text-transform:uppercase;
 }
 .body .about ul li.green span {
-	background:url(../images/green-circle.png) no-repeat;
+	background:url(../images/whatup1.jpg) no-repeat;
+	border-radius: 40px;
 }
 .body .about ul li.yellow span {
-	background:url(../images/yellow-circle.png) no-repeat;
+	background:url(../images/whatup2.jpg) no-repeat;
+	border-radius: 40px;
 }
 .body .about ul li.blue span {
-	background:url(../images/blue-circle.png) no-repeat;
+	background:url(../images/whatup3.jpg) no-repeat;
+	border-radius: 40px;
 }
 .body .about ul li.brown span {
-	background:url(../images/brown-circle.png) no-repeat;
+	background:url(../images/hotel.jpg) no-repeat;
+	border-radius: 40px;
 }
 .body .about ul li p {
 	color:#838383;
@@ -1453,4 +1412,131 @@ p a:hover, a:hover {
 }
 .footer div:first-child div ul li:first-child, .footer div ul li:first-child {
 	margin:0;
+}
+
+
+
+/* parkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk */
+.body{
+	width: 97%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.gioithieuchung{
+margin: 40px 0 0 40px;
+}
+.col{
+	width: 97%;
+	height: 400px;
+
+}
+.col1{
+	width: 49%;
+	float: left;
+	height: 400px;
+
+}
+.col2{
+	width: 50%;
+	float: left;
+	height: 400px;
+
+}
+.txt{
+	margin: 40px 0 0 40px;
+}
+.col3{
+		width: 50%;
+	float: left;
+	height: 650px;
+}
+
+
+/* cơ hộiiiiiiiiiiiiiiiiiiiiiiii */
+.img{
+	margin:50px 0 0 40px;
+}
+.event{
+	margin: 30px 0 0 30px;
+}
+.bao{
+	width: 97%;
+	height: 400px;
+	margin: 0 auto;
+
+}
+
+.o1{
+	width: 32%;
+	height: 300px;
+	float: left;
+	margin: 0 0 0 10px;
+
+}
+.o2{
+	width: 32%;
+	height: 300px;
+	float: left;
+	margin: 0 10px 0 10px;
+
+}
+
+.oo3{
+	width: 32%;
+	height: 300px;
+	float: left;
+}
+.bao img{
+	margin: 0 0 0 20px;
+	border-radius: 20px;
+}
+.bao img:hover{
+	border: 1px inset black;
+	width: 360px;
+}
+div h4 b:hover{
+	color: red;
+}
+/* trải nghiệmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+
+.tieude{
+	margin: 40px 0 0 40px;
+	width: 62%;
+	float: left;
+}
+.hotnew{
+	width: 24%;
+	float: left;
+	height: 970px;
+	border: 1px solid pink;
+	margin: 80px 0 0 70px;
+}
+.hea{
+	height: 50px;
+	border:1px solid pink;
+	background-color: orange;
+}
+.chu{
+	margin: 10px 0 0 60px;
+}
+.hea .chu h5 b{
+	color: white;
+
+}
+
+.nd{
+	width: 96%;
+	height: 100px;
+	border-bottom: 1px solid pink;
+	margin: 0 auto;
+	padding-top: 14PX;
+}
+.anh{
+	width: 40%;
+	float: left;
+}
+.anhnd{
+	width: 59%;
+	float: left;
 }
